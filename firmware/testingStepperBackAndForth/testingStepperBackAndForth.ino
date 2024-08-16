@@ -14,12 +14,12 @@
 #define motorInterfaceType 1
 
 // Left stepper motor connections
-#define dirPinLeftStepper 2
-#define stepPinLeftStepper 3
+#define stepPinLeftStepper 26
+#define dirPinLeftStepper 25
 
 // Right stepper motor connections
-#define dirPinRightStepper 4
-#define stepPinRightStepper 5
+#define dirPinRightStepper 17
+#define stepPinRightStepper 16 
  
 AccelStepper leftStepper = AccelStepper(motorInterfaceType, stepPinLeftStepper, dirPinLeftStepper);
 AccelStepper rightStepper = AccelStepper(motorInterfaceType, stepPinRightStepper, dirPinRightStepper);
